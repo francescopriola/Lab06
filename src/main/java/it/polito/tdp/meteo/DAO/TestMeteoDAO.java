@@ -13,10 +13,24 @@ public class TestMeteoDAO {
 		List<Rilevamento> list = dao.getAllRilevamenti();
 
 		// STAMPA: localita, giorno, mese, anno, umidita (%)
-		for (Rilevamento r : list) {
+		/*for (Rilevamento r : list) {
 			System.out.format("%-10s %2td/%2$2tm/%2$4tY %3d%%\n", r.getLocalita(), r.getData(), r.getUmidita());
-		}
+		}*/
 		
+		/*List<Rilevamento> genova = dao.getAllRilevamentiLocalitaMese(1, "Genova");
+		for (Rilevamento r : genova) {
+			System.out.format("%-10s %2td/%2$2tm/%2$4tY %3d%%\n", r.getLocalita(), r.getData(), r.getUmidita());
+		}*/
+		
+		/*List<Rilevamento> torino = dao.getAllRilevamentiLocalitaMese(1, "Torino");
+		for (Rilevamento r : torino) {
+			System.out.format("%-10s %2td/%2$2tm/%2$4tY %3d%%\n", r.getLocalita(), r.getData(), r.getUmidita());
+		}*/
+		
+		/*List<Rilevamento> milano = dao.getAllRilevamentiLocalitaMese(1, "Milano");
+		for (Rilevamento r : milano) {
+			System.out.format("%-10s %2td/%2$2tm/%2$4tY %3d%%\n", r.getLocalita(), r.getData(), r.getUmidita());
+		}*/
 //		System.out.println(dao.getAllRilevamentiLocalitaMese(1, "Genova"));
 //		System.out.println(dao.getAvgRilevamentiLocalitaMese(1, "Genova"));
 //		
